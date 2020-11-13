@@ -1,0 +1,25 @@
+Reclaim-profiles:
+  1:
+    weight: 1
+    permission: "reclaim.rank.bronze"
+    commands:
+      - "give %player% diamond 15"
+      - "eco give %player% 1000"
+      - "lp user %player% permission set reclaim.rank.bronze false"
+  2:
+    weight: 3
+    permission: "reclaim.rank.gold"
+    commands:
+      - "give %player% diamond 45"
+      - "eco give %player% 3000"
+      - "lp user %player% permission set reclaim.rank.gold false"
+  3:
+    weight: 2
+    permission: "reclaim.rank.silver"
+    commands:
+      - "give %player% diamond 30"
+      - "eco give %player% 2000"
+      - "lp user %player% permission set reclaim.rank.silver false"
+
+Messages:
+  no-reclaim: "&cYou have nothing to reclaim!"
